@@ -1,0 +1,141 @@
+body{
+    margin:0;
+    font-family: Dosis, Helvetica, sans-serif;
+    font-size: 20px;;
+    color:rgb(41, 67, 63);
+    background-color:rgb(244, 238, 229);
+}
+
+.nav{
+    padding: 80px;
+    background-image: url(https://thumbs.dreamstime.com/b/healthy-vegan-food-panorama-top-shot-fruits-vegetables-legumes-mushrooms-nuts-balanced-diet-concept-dark-background-203658923.jpg);
+    /*background-image: url(https://thumbs.dreamstime.com/b/organic-food-black-stone-background-vegetables-fruits-top-view-free-copy-space-151180475.jpg);*/
+    /*background-image: url(https://st4.depositphotos.com/7893620/25315/i/450/depositphotos_253152468-stock-photo-colorful-vegetables-tomatoes-pepper-garlic.jpg);*/
+    background-repeat: no-repeat;
+    background-size: 1000px auto; 
+    background-position: center top;
+    background-attachment: fixed;
+    text-align: center;
+    font-weight:600;
+}
+
+.nav h1{
+    font-size: 40px;
+    font-weight: 800;
+    color:rgb(9, 9, 9);
+    background-color: rgba(255, 255, 255, 0.9);
+    width: fit-content;
+    /*text-align:center;*/
+    margin: 40px auto;  
+}
+
+.nav a{
+    color: rgb(9, 2, 2);
+    opacity: 0.8;
+    background-color: rgb(243, 238, 229);
+    padding: 0 50px;
+    margin-top: 500px;
+    transition: opacity .4s;
+}
+
+.nav a:hover{
+    opacity: 1;
+}
+
+h1{
+    text-align: center;
+}
+
+.text{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.text p{
+    padding: 50px;
+    margin:50px;
+    width: 500px;
+    text-align: center;
+    border:rgb(209, 160, 160);
+    border-style:solid;
+    border-radius: 10% / 50%;
+    background-color: rgba(237, 223, 163, 0.795);
+}
+
+.social img{
+    width:30px;
+}
+
+.repertoire{
+    margin-top: 30px;
+    padding-left: 50px;
+}
+
+.repertoire a{
+    text-decoration: none;
+    color:black;
+}
+
+.repertoire ul{
+    list-style-type: none;
+    text-align: start;
+}
+
+.register{
+    font-size:15px;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+.recipes{
+    text-align: center;
+}
+
+.recipes h2{
+    text-decoration: underline;
+}
+
+.recipes h4{
+    font-weight: bold;
+}
+
+.recette{
+    padding:50px;
+}
+
+img{
+    width:300px;
+}
+
+.ing{
+    display: inline-block;
+    text-align:start;
+    padding-left: 50px;
+    padding-bottom:50px;
+}
+
+footer{
+    float:right;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(255, 217, 157, 0.89);
+    border-radius: 10%;
+}
+
+footer a{
+    text-decoration: none;
+    color:black;
+}
+
+footer:hover{
+    background-color: rgb(215, 166, 1);
+}
+
+@media screen and (max-width: 900px) {
+    .nav{background-size: 700px;}
+    .nav h1{ margin:10px auto;}
+}
